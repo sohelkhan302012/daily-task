@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.row {
+  margin: 0 -15px;
+}
+.row::after,
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 100%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+[class*="col-"] {
+  float: left;
+  padding: 0 15px;
+}
+.sec-1 {
+  padding: 100px 0;
+}
+.posi {
+  position: relative;
+}
+.box-1 {
+  background-color: #c6d3d3;
+  padding: 20px;
+  border-radius: 20px;
+  display: inline-block;
+}
+.box-1 p {
+  font-size: 30px;
+}
+.box-2 {
+  background-color: #000000;
+  padding: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 110px;
+  left: 0px;
+  opacity: 0;
+  z-index: 2;
+}
+.box-2:hover {
+  opacity: 1;
+}
+.box-2 p {
+  font-size: 30px;
+  color: #ffffff;
+}
+.sec-2 {
+  padding: 100px 0;
+}
+.main h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+.sec-2-box1 {
+  height: 400px;
+  border: 2px solid #f6f6f6;
+  background-color: #ffd9ab;
+}
+.bg-color-1 {
+  background-color: #99e8cd;
+}
+.bg-color-2 {
+  background-color: #80a8d2;
+}
+.bg-color-2 {
+  background-color: #d280c4;
+}
+@media (min-width: 640px) {
+  .col-3 {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .col-3 {
+    width: 33.33%;
+  }
+}
+@media (min-width: 1024px) {
+  .col-3 {
+    width: 25%;
+  }
+}
+.descendant p {
+  color: #ff0000;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.child > p {
+  color: #0000ff;
+  font-size: 25px;
+  padding: 10px;
+}
+.adjacent + p {
+  color: #00ff00;
+  font-size: 20px;
+  padding: 5px 0;
+}
+.general ~ p {
+  color: #d280c4;
+  padding: 10px 0;
+  font-size: 20px;
+}
+[wecode] {
+  font-size: 30px;
+  background-color: #f5deb3;
+}
+[tag="p"] {
+  font-size: 20px;
+  background-color: #5fb155;
+}
+[tag~="sk"] {
+  font-size: 25px;
+  background-color: #555292;
+}
+[tag|="sg"] {
+  font-size: 28px;
+  background-color: #ae5897;
+}

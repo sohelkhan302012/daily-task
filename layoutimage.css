@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #000000;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav{
+    overflow: auto;
+}
+.color{
+    color: #ffffff;
+}
+.logo{
+    float: left;
+    padding: 15px 20px;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.menubar{
+    float: right;
+}
+.menubar li{
+    display: inline-block;
+}
+.link{
+    display: inline-block;
+    padding: 15px 10px;
+}
+.boxforimage{
+    background-image: url("backgroundimage.png");
+    height: 450px;
+}
+.pragraph{
+    font-size: 70px;
+    color: #ffffff;
+    text-transform: capitalize;
+
+}
+.boxformargin{
+    padding: 100px 0;
+}
+.text{
+    color: #ffffff;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+.button1{ 
+    padding: 10px 70px;
+    color: #ffffff;
+    background-color: rgb(255, 69, 0);
+    border-radius: 5px;
+    border: none;
+    margin: 40px 0;
+    font-size: 20px;
+    
+}
+.button2{
+    padding: 10px 70px;
+    color: #ffffff;
+    background-color:rgb(128, 128, 128);
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    
+}
+.boxforfloat{
+    width: 30%;
+    float: left;
+    text-align: center;
+    background-color: #ffffff;
+    margin:  0 10px;
+    border-radius: 5px;
+}
+.margin{
+    padding: 50px 0;
+}
+.image{
+    width: 190px;
+    height: 150px;
+    margin: 20px 10px;
+}
+.textpra{
+    font-size: 30px;
+    font-weight: bold ;
+}
+.sup{
+    font-size: 10px;
+}
